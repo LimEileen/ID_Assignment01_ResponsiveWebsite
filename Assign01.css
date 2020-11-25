@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(#6247aa,#6C33A3);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    background: #6e45a3;
+    position: fixed; /*stick on the top*/
+    z-index: 1;
+}
+
+.topnav{
+    list-style: none;
+    text-align: right;
+    position: relative;
+    width: 100%;
+}
+
+.topnav li{
+    display: inline-block;
+    padding: 40px;
+}
+
+.topnav a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    letter-spacing: 5px;
+}
+
+.topnav a:hover{
+    color: #F0B0BC;
+}
+
+
+
+.headerlogo{
+    height: 80px;
+    width: 70px;
+    padding: 10px 0 10px 30px;
+    float: left;
+}
+
+.title{
+    float: left;
+    color: white;
+    padding: 25px 0 10px 30px;
+    font-size: 40px;
+}
+
+banner{
+    text-align: center;
+}
+
+.bannerimg{
+    width: 100%;
+    padding-top: 100px;
+    opacity: 0.5;
+    z-index: -1;
+    text-align: center;   
+}
+
+banner h1{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    color: white; 
+    transform: translate(-50%,-50%);
+    font-size: 100px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 920px){  /*small screen banner*/
+    banner h1{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    color: white; 
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+    }
+}
+
+
+.intro .aboutbts h2{
+    text-align: center;
+    padding-top: 50px;  /*space after banner*/
+    padding-bottom: 20px;
+    color: white;
+    font-size: 50px;
+}
+
+.aboutbts p{
+    padding-left: 50px;
+    font-size: 30px;
+    color: white;
+    float: left;
+    width: 60%; /*occupy 60% from left side*/
+}
+
+.intrologo{
+    margin-top: 20px;  /*space after about bts*/
+    background-color: #AB88D8;
+    float: right;
+    width: 30%;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.intrologo h2{
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.intrologo .logoimg{
+    padding: 20px;
+    height: 200px;
+    width: 200px;
+}
+
+.intrologo p{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+footer{
+    background-color: #AB88D8;
+    margin-top: 900px;
+    height: 90px;
+    left: 0;
+    bottom: 0; 
+    width: 100%;
+    z-index: -1;
+}
+
+footer ul{
+    list-style: none;
+    display: inline-flex;
+}
+
+footer ul li{
+    text-decoration: none;
+    margin: 0 30px;
+}
+
+footer ul li .fab{
+    font-size: 40px;
+    line-height: 50px;
+    transition: .5s;
+    color: white;
+    padding: 5px; /*place icon in the border's center*/
+}
+
+footer ul li .fab:hover{
+    color: #F0B0BC;
+}
+
+footer ul li a{
+    height: 60px;
+    width: 60px;
+    display: block;
+    background: plum;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.page02content h1{
+    padding-top: 150px;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.intromembers{
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    background: plum;
+    border-radius: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.split{
+    flex-basis: 46%;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+}
+
+.split img{
+    max-width: 100%;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 50px;
+}
+
+@media screen and (max-width: 576px){
+    .split{
+        flex: 1 100%;
+        flex-grow: inherit;
+    }
+}
+
+.intromembers h2{
+    color: white;
+    font-size: 40px;
+    padding: 10px 0 20px 0;
+}
+
+.intromembers p{
+    color: white;
+    font-size: 20px;
+    line-height: 200%;
+}
+
+.page03 h1{
+    padding-top: 150px;
+    text-align: center;
+    color: white;
+}
+
+.table{
+    padding-top: 80px;
+    padding-left: 10%;
+}
+
+.schedule {
+    border-collapse: collapse;
+    width: 90%;
+    color: white;
+    font-size: 20px;
+}
+
+.schedule td, .schedule th{
+    border: 1px solid palevioletred;
+    padding: 20px;
+}
+
+.schedule tr:hover {
+    background-color: rgb(218, 143, 168);
+}
+
+.schedule tr:nth-child(1){
+    background-color: rgb(228, 98, 120); 
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.schedule tr:nth-child(6){
+    background-color: pink;
+}
+
+.schedule tr:nth-child(10){
+    background-color: pink; 
+}
+
+.shop{
+    padding-top: 150px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.introBE{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+
+.BE{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.BE img{
+    max-width: 90%;
+}
+
+a.button{
+    background-color: pink;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.lightstick{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.lightstick img{
+    max-width: 80%;
+    padding-left: 30px;
+}
+
+
+.lightstick h1{
+    color: white;
+    padding-bottom: 20px;
+}
+
+.lightstick p{
+    font-size: 20px;
+    color:white;
+}
+
+
+
