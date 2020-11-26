@@ -146,18 +146,18 @@ banner h1{
 
 .intromembers{
     display: flex;
-    width: 90%;
+    width: 100%;
     flex-wrap: wrap;
     background: plum;
     border-radius: 50px;
-    margin-left: 5%;
+    margin-bottom: 100px;
 }
 
 .split{
-    flex-basis: 48%;
+    flex-basis: 46%;
     display: flex;
     flex-direction: column;
-    padding: 1%;
+    padding: 2%;
 }
 
 .split img{
@@ -185,8 +185,16 @@ banner h1{
     line-height: 200%;
 }
 
+.page03 h1{
+    padding-top: 250px;
+    text-align: center;
+    color: white;
+    font-family: 'Lobster Two', cursive;
+    font-size: 50px;
+}
+
 .table{
-    padding-top: 80px;
+    padding-top: 50px;
     padding-left: 10%;
     padding-bottom: 100px;
 }
@@ -222,13 +230,135 @@ banner h1{
     background-color: pink; 
 }
 
+.shop{
+    padding-top: 250px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.shop h2{
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+    font-family: 'Lobster Two', cursive;
+}
+
+.introBE{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+    color: white;
+}
+
+.BE{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.BE img{
+    max-width: 90%;
+}
+
+.BE h1{
+    padding-bottom: 20px;
+}
+
+.BE h3{
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+
+.BE .content{
+    font-size: 20px;
+    line-height: 25px;
+    padding-bottom: 10px;
+}
+
+.BE p{
+    text-align: center;
+    font-size: 30px;
+}
+
+a.button{
+    background-color: pink;
+    border-radius: 30px;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.introlightstick{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+    color: white;
+}
+
+.lightstick{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.lightstick img{
+    max-width: 70%;
+}
+
+.lightstick h1{
+    padding-bottom: 20px;
+}
+
+.lightstick h3{
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+
+.lightstick .content{
+    font-size: 20px;
+    line-height: 25px;
+    padding-bottom: 10px;
+}
+
+.lightstick p{
+    text-align: center;
+    font-size: 30px;
+}
+
+.introBT21{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+    color: white;
+}
+
+.BT21{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.BT21 img{
+    max-width: 70%;
+}
+
+.BT21 h1{
+    padding-bottom: 20px;
+}
+
+
 footer{
     background-color: #6e45a3;
     height: 90px;
     left: 0;
     bottom: 0; 
     width: 100%;
-    z-index: -1;
     position: relative;
 }
 
@@ -295,6 +425,19 @@ footer ul li a{
         font-size: 6vw;
         font-family: 'Lobster Two', cursive;
         letter-spacing: 5px;
+    }
+
+    .page02content h1{
+        padding-top: 50px;
+    }
+
+    .split{
+        flex: 1 100%;
+        flex-grow: inherit;
+    }
+
+    .intromembers h2{
+        text-align: center;
     }
 }
 
