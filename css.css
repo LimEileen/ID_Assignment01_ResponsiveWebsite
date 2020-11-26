@@ -154,7 +154,7 @@ banner h1{
 }
 
 .split{
-    flex-basis: 48%;
+    flex-basis: 46%;
     display: flex;
     flex-direction: column;
     padding: 1%;
@@ -165,103 +165,6 @@ banner h1{
     padding: 10px;
     margin-left: 20px;
     border-radius: 50px;
-}
-
-.intromembers h2{
-    color: white;
-    font-size: 40px;
-    padding: 10px 0 20px 0;
-}
-
-.intromembers p{
-    color: white;
-    font-size: 20px;
-    line-height: 200%;
-}
-
-.intromembers ul{
-    color: white;
-    font-size: 20px;
-    line-height: 200%;
-}
-
-.table{
-    padding-top: 80px;
-    padding-left: 10%;
-    padding-bottom: 100px;
-}
-
-.schedule {
-    border-collapse: collapse;
-    width: 90%;
-    color: white;
-    font-size: 25px;
-}
-
-.schedule td, .schedule th{
-    border: 3px solid rgb(245, 131, 169);
-    padding: 20px;
-}
-
-.schedule tr:hover {
-    background-color: rgb(218, 143, 168);
-}
-
-.schedule tr:nth-child(1){
-    background-color: rgb(228, 98, 120); 
-    font-size: 30px;
-    font-weight: bold;
-    font-family: 'Lobster Two', cursive;
-}
-
-.schedule tr:nth-child(6){
-    background-color: pink;
-}
-
-.schedule tr:nth-child(10){
-    background-color: pink; 
-}
-
-footer{
-    background-color: #6e45a3;
-    height: 90px;
-    left: 0;
-    bottom: 0; 
-    width: 100%;
-    z-index: -1;
-    position: relative;
-}
-
-footer ul{
-    list-style: none;
-    display: inline-flex;
-}
-
-footer ul li{
-    text-decoration: none;
-    margin: 0 30px;
-}
-
-footer ul li .fa{
-    font-size: 40px;
-    line-height: 55px;
-    transition: .5s;
-    color: white;
-    padding: 5px; /*place icon in the border's center*/
-}
-
-footer ul li .fa:hover{
-    color: #F0B0BC;
-}
-
-footer ul li a{
-    height: 65px;
-    width: 65px;
-    display: block;
-    background: #8956cc;
-    border-radius: 50%;
-    text-align: center;
-    margin-top: 15px;
 }
 
 
@@ -297,5 +200,3 @@ footer ul li a{
         letter-spacing: 5px;
     }
 }
-
-
