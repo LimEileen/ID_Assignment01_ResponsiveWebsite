@@ -12,13 +12,13 @@ body{
     margin: 0;
 }
 
-header{
+.header{
     width: 100%;
     background: #933cce;
     position: fixed; /*stick on the top*/
     z-index: 2;
-    text-align: center;
     padding: 10px;
+    text-align: center;
 }
 
 .headerlogo{
@@ -27,11 +27,25 @@ header{
     padding-top: 10px;
 }
 
+.header02{
+    width: 100%;
+    background: #933cce;
+    position: fixed; /*stick on the top*/
+    z-index: 2;
+    padding: 10px;
+    text-align: center;
+}
+
+.header02 .headerlogo{
+    height: 70px;
+    width: 60px;
+    padding-top: 5px;
+}
+
 .title{
-    float: right;
     color: white;
-    padding: 15px 20px 0 30px;
-    font-size: 50px;
+    padding: 5px 20px 0 30px;
+    font-size: 30px;
     font-family: 'Lobster Two', cursive;
 }
 
@@ -67,6 +81,38 @@ header{
     color: #F0B0BC;
 }
 
+.topnav02{
+    padding-top: 130px;
+    padding-bottom: 20px;
+    list-style: none;
+    text-align: center;
+    width: 100%;
+    background-color: #aa63da;
+    position: fixed;
+    z-index: 1;
+}
+
+.topnav02 li{
+    display: inline-block;
+    padding-top: 35px;
+    margin-right: 100px;
+}
+
+.topnav02 a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    letter-spacing: 5px;
+}
+
+.topnav02 a:hover{
+    color: #F0B0BC;
+}
+
 .bannerimg{
     width: 100%;
     padding-top: 200px;
@@ -74,7 +120,7 @@ header{
     z-index: -1;
 }
 
-banner h1{
+.banner h1{
     position: absolute;
     top: 90%;
     left: 50%;
@@ -136,7 +182,7 @@ banner h1{
 }
 
 .page02content h1{
-    padding-top: 250px;
+    padding-top: 300px;
     font-size: 60px;
     text-align: center;
     color: white;
@@ -186,7 +232,7 @@ banner h1{
 }
 
 .page03 h1{
-    padding-top: 250px;
+    padding-top: 300px;
     text-align: center;
     color: white;
     font-family: 'Lobster Two', cursive;
@@ -207,7 +253,7 @@ banner h1{
 }
 
 .schedule td, .schedule th{
-    border: 3px solid rgb(245, 131, 169);
+    border: 3px solid rgb(233, 130, 164);
     padding: 20px;
 }
 
@@ -216,7 +262,7 @@ banner h1{
 }
 
 .schedule tr:nth-child(1){
-    background-color: rgb(228, 98, 120); 
+    background-color: rgb(240, 123, 143); 
     font-size: 30px;
     font-weight: bold;
     font-family: 'Lobster Two', cursive;
@@ -231,9 +277,7 @@ banner h1{
 }
 
 .shop{
-    padding-top: 250px;
-    margin-left: 50px;
-    margin-right: 50px;
+    padding: 300px 80px 0 80px;
 }
 
 .shop h2{
@@ -248,18 +292,19 @@ banner h1{
     display: flex;
     width: 100%;
     flex-wrap: wrap;
-    padding-bottom: 100px;
+    padding-bottom: 30px;
     color: white;
 }
 
 .BE{
-    flex-basis: 50%;
+    flex-basis: 46%;
     display: flex;
     flex-direction: column;
+    padding: 2%;
 }
 
 .BE img{
-    max-width: 90%;
+    max-width: 100%;
 }
 
 .BE h1{
@@ -296,18 +341,19 @@ a.button{
     display: flex;
     width: 100%;
     flex-wrap: wrap;
-    padding-bottom: 100px;
+    padding-bottom: 30px;
     color: white;
 }
 
 .lightstick{
-    flex-basis: 50%;
+    flex-basis: 46%;
     display: flex;
     flex-direction: column;
+    padding: 1%;
 }
 
 .lightstick img{
-    max-width: 70%;
+    max-width: 90%;
 }
 
 .lightstick h1{
@@ -339,17 +385,29 @@ a.button{
 }
 
 .BT21{
-    flex-basis: 50%;
+    flex-basis: 46%;
     display: flex;
     flex-direction: column;
+    padding: 1%;
 }
 
 .BT21 img{
-    max-width: 70%;
+    max-width: 90%;
 }
 
 .BT21 h1{
     padding-bottom: 20px;
+}
+
+.BT21 p{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.BT21 p:nth-child(3){
+    text-align: center;
+    font-size: 30px;
+    padding: 0;
 }
 
 
@@ -410,6 +468,19 @@ footer ul li a{
         padding: 20px 0 10px;
     }
 
+    .topnav02{
+        list-style: none;
+        text-align: center;
+        max-width: 100%;
+        position: relative;
+    }
+    
+    .topnav02 li{
+        display: block;
+        margin: 0;
+        padding: 20px 0 10px;
+    }
+
     .bannerimg{
         width: 100%;
         padding: 0;
@@ -417,7 +488,7 @@ footer ul li a{
         z-index: -1;
     }
     
-    banner h1{
+    .banner h1{
         top: 110%;
         left: 50%;
         color: white; 
@@ -438,6 +509,63 @@ footer ul li a{
 
     .intromembers h2{
         text-align: center;
+    }
+
+    .shop{
+        padding: 0 30px 0 30px;
+    }
+
+    .BE{
+        flex: 1 100%;
+        flex-grow: inherit;
+    }
+
+    .BE img{
+        max-width: 100%;
+    }
+
+    .lightstick{
+        flex: 1 100%;
+        flex-grow: inherit;
+    }
+
+    .lightstick img{
+        max-width: 90%;
+    }
+
+    .BT21{
+        flex: 1 100%;
+        flex-grow: inherit;
+    }
+
+    footer{
+        background-color: #6e45a3;
+        height: 70px;
+        left: 0;
+        bottom: 0; 
+        width: 100%;
+        z-index: -1;
+        position: relative;
+    }
+    footer ul li{
+        text-decoration: none;
+        margin: 0 15px;
+    }
+    footer ul li .fa{
+        font-size: 30px;
+        line-height: 45px;
+        transition: .5s;
+        color: white;
+        padding: 5px; /*place icon in the border's center*/
+    }
+    footer ul li a{
+        height: 50px;
+        width: 50px;
+        display: block;
+        background: #8956cc;
+        border-radius: 50%;
+        text-align: center;
+        margin-top: 12px;
     }
 }
 
