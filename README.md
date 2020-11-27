@@ -22,8 +22,6 @@ Include the Adobe XD wireframe as a folder. You can include the XD share url.
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
 ### Existing Features
 - Home page - allow users to know about the groups's background and also their logo's revolution
 - Members page - allow users to know all the members and their real personality as well as some fun facts about them.
@@ -34,6 +32,7 @@ In this section, you should go over the different parts of your project, and des
 ### Features Left to Implement
 - Add on a new page of discography - allow users to know all the concept of their each album and what is the inspritation of the concept
 - Add on a music playlist in the homepage - allow users to play their music in the website
+- Add on a more complicated purchase box
 
 ## Technologies Used
 
@@ -45,11 +44,20 @@ In this section, you should go over the different parts of your project, and des
 
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+1. Navigation Bar:
+    1. The navigation bar is on top of each page in the website
+    2. Try to click on one of the title in navigation bar
+    3. The website will automatically open the specific page
+
+2. Footer:
+    1. Scroll down to the bottom of the website, there are some social media icons
+    2. Try to click on one of the social media icon
+    3. The website will automatically open the specific social media website in new tab
+
+3. Purchase Button:
+    1. Go to the 'SHOP' page in the website
+    2. Try to click on the purchase button for the items that want to buy
+    3. An alert box will come out to show you are succesfully purchase the item.
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
@@ -66,7 +74,7 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Media
 - The photos used in home page and members page were obtained from the [Official Website for BTS](https://ibighit.com/bts/eng/profile/)
-- The photo 
+- The photo used in the shop page are obtained from [Amazon](https://www.amazon.sg/s?k=bts&ref=nb_sb_noss)
 
 ### Acknowledgements
 
