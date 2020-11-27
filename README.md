@@ -1,6 +1,6 @@
 # BTS Fanpage
-In this website, it is all about a KPOP boyband named BTS. I decided to create this website is because I am also one of their fans. I hope 
-this website can help more people get to know about their story and musics. In this website, it provided the history and information about the members which can help the fans to learn about them. 
+In this website, it is all about a KPOP boyband named BTS. The target user of this website is their fandom and also help more people getting
+know of them. In this website, it provided the history and information about the members which can help the fans to learn about them. The users can also purchase their products in this website and check on their upcoming schedules.
 
 # Design Process
 
