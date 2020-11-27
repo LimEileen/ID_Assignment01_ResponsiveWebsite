@@ -9,16 +9,14 @@ Essentially, this part is your sales pitch.
  
 ## Design Process
 
-I decided to create this website is because I'm also one of BTS's fan, I hope this website can help more people to recognise them. The target user of this website is for their fans and also 
+I decided to create this website is because I'm also one of BTS's fan, I hope this website can help more people to recognise them. The target user of this website is for their fans. If there is a new fan that want to hava a deeper understanding about this group, there is the background of the group and also the introduction of each member in this website. And also, the fans also can purchase some mechndise through this website. In this website, it also provided the group's schedule so that the fans can follow up or get to know about their upcoming events.
  
 Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 - As a user type, I want to perform an action, so that I can achieve a goal.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. 
-These files should themselves either be included as a pdf file in the project itself (in an separate directory)
-Include the Adobe XD wireframe as a folder. You can include the XD share url. 
+Before I start to code the website, I have done a preview wireframe in [Adobe XD](https://xd.adobe.com/view/c621ebc5-23af-4efe-8814-ba98e64172e7-9372/).
 
 ## Features
 
@@ -41,9 +39,6 @@ Include the Adobe XD wireframe as a folder. You can include the XD share url.
 
 
 ## Testing
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
 1. Navigation Bar:
     1. The navigation bar is on top of each page in the website
     2. Try to click on one of the title in navigation bar
@@ -59,11 +54,9 @@ For any scenarios that have not been automated, test the user stories manually a
     2. Try to click on the purchase button for the items that want to buy
     3. An alert box will come out to show you are succesfully purchase the item.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+This is a responsive website, as the content in the website will automatically respond to the screen size of users' device. As the screen size become smaller than 1180px, the image in the website will place on top whereas the text will place below the image. In the common dekstop screen size, the navigation bar is apply to horizontal. While the screen size become smaller, the navigation bar will apply to vertical.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+During testing, I have face many problems especially the content in the homepage. When I change to the small screen size, ordering of the main content and aside will become messy.
 
 ## Credits
 
