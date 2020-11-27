@@ -25,8 +25,10 @@ Include the Adobe XD wireframe as a folder. You can include the XD share url.
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
  
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+- Home page - allow users to know about the groups's background and also their logo's revolution
+- Members page - allow users to know all the members and their real personality.
+- Schedule page - 
+
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
