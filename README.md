@@ -1,12 +1,12 @@
 # BTS Fanpage
 
 In this website, it is all about a KPOP boyband named BTS. The target user of this website is their fandom and also help more people getting
-know of them. In this website, it provided the history and information about the members which can help the fans to learn about them. The users can also purchase their products in this website and check on their upcoming schedules.
+know of them. This website provided the history and information about the members, which can help the fans learn about them. The users can also purchase their products on this website and check on their upcoming schedules.
 
  
 ## Design Process
 
-I decided to create this website is because I'm also one of BTS's fan, I hope this website can help more people to recognise them. The target user of this website is for their fans. If there is a new fan that want to hava a deeper understanding about this group, there is the background of the group and also the introduction of each member in this website. And also, the fans also can purchase some mechndise through this website. In this website, it also provided the group's schedule so that the fans can follow up or get to know about their upcoming events.
+I decided to create this website is because I'm also one of BTS's fan, I hope this website can help more people to recognize them. The target user of this website is for their fans. If there is a new fan who wants to hava a deeper understanding of this group, there is the background of the group and the introduction of each member in this website. And also, the fans also can purchase some merchandise through this website. This website also provided the group's schedule so that the fans can follow up or get to know about their upcoming events.
 
 Before I start to code the website, I have done a preview wireframe in [Adobe XD](https://xd.adobe.com/view/c621ebc5-23af-4efe-8814-ba98e64172e7-9372/).
 
@@ -17,7 +17,7 @@ Before I start to code the website, I have done a preview wireframe in [Adobe XD
 - Members page - allow users to know all the members and their real personality as well as some fun facts about them.
 - Schedule page - allow users to know about the idol's upcoming schedules. The schedules content the date, time, place and also the show title
 - Shop page - allow users to purchase some of the merchandise
-- Footer -The footer with social media icon can directly link to their existing social media account as the fans can follow up all the gorup's news and the members' personal activities.
+- Footer -The footer with social media icon can directly link to their existing social media account as the fans can follow up all the group's news and the members' personal activities.
 
 ### Features Left to Implement
 - Add on a new page of discography - allow users to know all the concept of their each album and what is the inspritation of the concept
