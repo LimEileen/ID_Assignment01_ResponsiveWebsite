@@ -27,13 +27,6 @@ body{
     padding-top: 10px;
 }
 
-.title{
-    color: white;
-    padding: 5px 20px 0 30px;
-    font-size: 30px;
-    font-family: 'Lobster Two', cursive;
-}
-
 .topnav{
     padding-top: 100px;
     padding-bottom: 20px;
@@ -145,7 +138,8 @@ body{
     font-family: 'Acme', sans-serif;
 }
 .page02content h1{
-    padding-top: 300px;
+    margin: 0;
+    padding-top: 250px;
     font-size: 60px;
     text-align: center;
     color: white;
@@ -199,6 +193,7 @@ body{
 }
 
 .page03 h1{
+    margin: 0;
     padding-top: 300px;
     text-align: center;
     color: white;

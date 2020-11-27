@@ -26,12 +26,14 @@ In this section, you should go over the different parts of your project, and des
  
 ### Existing Features
 - Home page - allow users to know about the groups's background and also their logo's revolution
-- Members page - allow users to know all the members and their real personality
+- Members page - allow users to know all the members and their real personality as well as some fun facts about them.
 - Schedule page - allow users to know about the idol's upcoming schedules. The schedules content the date, time, place and also the show title
 - Shop page - allow users to purchase some of the merchandise
+- Footer -The footer with social media icon can directly link to their existing social media account as the fans can follow up all the gorup's news and the members' personal activities.
 
 ### Features Left to Implement
-- Add on a new page of discography - allow users to know all their 
+- Add on a new page of discography - allow users to know all the concept of their each album and what is the inspritation of the concept
+- Add on a music playlist in the homepage - allow users to play their music in the website
 
 ## Technologies Used
 
@@ -68,4 +70,4 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from [Official Website for BTS](https://ibighit.com/bts/eng/profile/)
