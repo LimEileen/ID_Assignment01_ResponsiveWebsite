@@ -203,15 +203,13 @@ body{
 }
 
 .table{
-    padding-top: 50px;
-    padding-left: 10%;
-    padding-bottom: 100px;
+    padding: 50px 150px 100px;
     overflow-x: auto;
 }
 
 .schedule {
     border-collapse: collapse;
-    width: 90%;
+    width: 100%;
     color: white;
     font-size: 25px;
 }
