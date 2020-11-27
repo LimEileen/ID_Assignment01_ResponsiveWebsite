@@ -35,10 +35,8 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+- [W3Schools](https://www.w3schools.com/howto/howto_css_social_media_buttons.asp)
+    - I have used W3Schools for my social media icon in the footer. 
 
 
 ## Testing
