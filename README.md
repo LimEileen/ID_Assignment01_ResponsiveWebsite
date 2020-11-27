@@ -7,10 +7,6 @@ know of them. In this website, it provided the history and information about the
 ## Design Process
 
 I decided to create this website is because I'm also one of BTS's fan, I hope this website can help more people to recognise them. The target user of this website is for their fans. If there is a new fan that want to hava a deeper understanding about this group, there is the background of the group and also the introduction of each member in this website. And also, the fans also can purchase some mechndise through this website. In this website, it also provided the group's schedule so that the fans can follow up or get to know about their upcoming events.
- 
-
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
 
 Before I start to code the website, I have done a preview wireframe in [Adobe XD](https://xd.adobe.com/view/c621ebc5-23af-4efe-8814-ba98e64172e7-9372/).
 
