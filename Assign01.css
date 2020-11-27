@@ -179,7 +179,7 @@ body{
 
 .intromembers p{
     color: white;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 200%;
     font-family: 'Acme', sans-serif;
 }
@@ -187,14 +187,14 @@ body{
 .intromembers ul{
     color: white;
     font-size: 20px;
-    line-height: 200%;
+    line-height: 30px;
     padding-left: 50px;
     font-family: 'Acme', sans-serif;
 }
 
 .page03 h1{
     margin: 0;
-    padding-top: 300px;
+    padding-top: 270px;
     text-align: center;
     color: white;
     font-family: 'Lobster Two', cursive;
@@ -245,7 +245,7 @@ body{
 }
 
 .shop{
-    padding: 300px 80px 0 80px;
+    padding: 270px 80px 0 80px;
 }
 
 .shop h2{
@@ -607,6 +607,17 @@ footer ul li a{
         font-size: 20px;
     }
 
+}
+
+
+@media screen and (max-width: 600px){
+    .table{
+        padding: 0 10px 80px 10px;
+    }
+    .schedule{
+        width: 100%;
+        font-size: 18px;
+    }
 }
 
 

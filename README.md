@@ -3,15 +3,11 @@
 In this website, it is all about a KPOP boyband named BTS. The target user of this website is their fandom and also help more people getting
 know of them. In this website, it provided the history and information about the members which can help the fans to learn about them. The users can also purchase their products in this website and check on their upcoming schedules.
 
-One or two paragraphs providing an overview of your project. Tell us about your project.
-
-Essentially, this part is your sales pitch.
  
 ## Design Process
 
 I decided to create this website is because I'm also one of BTS's fan, I hope this website can help more people to recognise them. The target user of this website is for their fans. If there is a new fan that want to hava a deeper understanding about this group, there is the background of the group and also the introduction of each member in this website. And also, the fans also can purchase some mechndise through this website. In this website, it also provided the group's schedule so that the fans can follow up or get to know about their upcoming events.
  
-Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 - As a user type, I want to perform an action, so that I can achieve a goal.
