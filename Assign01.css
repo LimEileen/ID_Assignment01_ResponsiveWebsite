@@ -231,10 +231,6 @@ body{
     font-family: 'Lobster Two', cursive;
 }
 
-.schedule tr:not:first-child{
-    font-family: 'Acme', sans-serif;
-}
-
 .schedule tr:nth-child(6){
     background-color: pink;
 }
