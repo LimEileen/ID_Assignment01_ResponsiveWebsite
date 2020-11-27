@@ -26,14 +26,12 @@ In this section, you should go over the different parts of your project, and des
  
 ### Existing Features
 - Home page - allow users to know about the groups's background and also their logo's revolution
-- Members page - allow users to know all the members and their real personality.
-- Schedule page - 
-
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- Members page - allow users to know all the members and their real personality
+- Schedule page - allow users to know about the idol's upcoming schedules. The schedules content the date, time, place and also the show title
+- Shop page - allow users to purchase some of the merchandise
 
 ### Features Left to Implement
-- Another feature idea
+- Add on a new page of discography - allow users to know all their 
 
 ## Technologies Used
 

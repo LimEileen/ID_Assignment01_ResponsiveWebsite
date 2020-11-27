@@ -104,16 +104,17 @@ body{
     text-indent: 60px;
     padding-left: 50px;
     float: left;
-    font-size: 25px;
+    font-size: 28px;
     color: white;
     width: 60%; /*occupy 60% from left side*/
-    font-family: 'Pragati Narrow', sans-serif;
     line-height: 150%;
+    font-family: 'Acme', sans-serif;
 }
 
 .aboutbts span{
-    color: rgb(0, 0, 0);
+    color:  #F0B0BC;
     font-size: 28px;
+    font-style: italic;
 }
 
 .intrologo{
@@ -174,13 +175,14 @@ body{
 .intromembers h2{
     color: white;
     font-size: 40px;
-    padding: 10px 0 20px 0;
+    padding: 10px 0 10px 0;
 }
 
 .intromembers p{
     color: white;
-    font-size: 20px;
+    font-size: 24px;
     line-height: 200%;
+    font-family: 'Acme', sans-serif;
 }
 
 .intromembers ul{
@@ -188,6 +190,7 @@ body{
     font-size: 20px;
     line-height: 200%;
     padding-left: 50px;
+    font-family: 'Acme', sans-serif;
 }
 
 .page03 h1{
@@ -281,11 +284,13 @@ body{
     font-size: 20px;
     line-height: 25px;
     padding-bottom: 10px;
+    font-family: 'Acme', sans-serif;
 }
 
 .BE p{
     text-align: center;
     font-size: 30px;
+    font-family: 'Acme', sans-serif;
 }
 
 button{
@@ -330,11 +335,13 @@ button{
     font-size: 20px;
     line-height: 25px;
     padding-bottom: 10px;
+    font-family: 'Acme', sans-serif;
 }
 
 .lightstick p{
     text-align: center;
     font-size: 30px;
+    font-family: 'Acme', sans-serif;
 }
 
 .introBT21{
@@ -363,6 +370,8 @@ button{
 .BT21 p{
     font-size: 20px;
     padding-bottom: 20px;
+    font-family: 'Acme', sans-serif;
+    line-height: 30px;
 }
 
 .BT21 p:nth-child(3){
